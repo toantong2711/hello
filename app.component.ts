@@ -12,7 +12,8 @@ export class AppComponent {
     {id : 2, name : 'course 2'},
     {id : 3, name :'course 3'},
   ];
-
+  
+  message: 'Master'
   onAdd () {
     this.courses.push({id: 5, name : 'course 5'});
   }
