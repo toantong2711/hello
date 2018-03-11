@@ -13,6 +13,7 @@ export class AppComponent {
     {id : 3, name :'course 3'},
   ];
   message: "ft_xxx: dev change";
+  message: "ft_xxx: after fix bug";
   onAdd () {
     this.courses.push({id: 5, name : 'course 5'});
   }
