@@ -12,7 +12,7 @@ export class AppComponent {
     {id : 2, name : 'course 2'},
     {id : 3, name :'course 3'},
   ];
-  message: "ft_xxx: ft change";
+  message: "ft_xxx: dev change";
   onAdd () {
     this.courses.push({id: 5, name : 'course 5'});
   }
